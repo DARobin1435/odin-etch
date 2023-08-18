@@ -18,7 +18,7 @@
     display: flex;
     flex-flow: row wrap;
     margin: 0 auto;
-    width: 800px;
+    width: 960px;
 
 }
 .reset-button{
@@ -29,16 +29,12 @@
     background-color:cornflowerblue;
 
 }
-.container>div{
+.container > div{
 
     background-color:lightblue;
     box-shadow: 3px 3px 25px gray;
 }
-.container>div:nth-child(17n + 1) {
-    width: 100%;
-    border: 0;
-    height: 0;
-}
+
 .temp{
 
     background-color: black;
